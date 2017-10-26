@@ -1,2 +1,2 @@
-# Lyrical-GraphQL
-Starter project from a GraphQL course on Udemy.com
+# Client-Side GraphQL
+From Stephen Grider's React-GraphQL course on UDEMY
