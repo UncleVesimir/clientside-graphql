@@ -1,0 +1,4 @@
+1. Identify data required
+2. Write query in Graphiql (for practice) and in component file
+3. Bind query and component
+4. Acces the data
