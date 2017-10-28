@@ -18,7 +18,9 @@ class SongList extends Component {
   render(){
     return (
       <div>
+        <ul className="collection">
         {this.renderSongs()}
+        </ul>
       </div>
     )
   }
