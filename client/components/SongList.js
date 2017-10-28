@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import gql from 'graphql-tag';
 import { graphql } from 'react-apollo';
 
@@ -21,6 +22,7 @@ class SongList extends Component {
         <ul className="collection">
         {this.renderSongs()}
         </ul>
+        <Link to="/song/new" >Create a new song!</Link>
       </div>
     )
   }
