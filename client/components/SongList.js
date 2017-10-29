@@ -22,7 +22,9 @@ class SongList extends Component {
         <ul className="collection">
         {this.renderSongs()}
         </ul>
-        <Link to="/song/new" >Create a new song!</Link>
+        <Link to="/songs/new" className="btn-floating btn-large red right">
+          <i className="material-icons">add</i>
+        </Link>
       </div>
     )
   }

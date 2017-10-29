@@ -14,7 +14,7 @@ export default class App extends Component{
       <div className="container">
         <Switch>
           <Route exact path={match.url} component={SongList}/> 
-          <Route path={match.url + "song"} component={SongCreate}/> 
+          <Route path={match.url + "songs/new"} component={SongCreate}/> 
         </Switch>
       </div>
     )
