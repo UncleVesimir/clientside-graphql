@@ -7,6 +7,7 @@ const client = new ApolloClient({}); // Acts as a client side store that for all
 // assumes backend graphql server is available at '/graphql'
 import App from './components/App'
 import SongList from './components/SongList'
+import './style/style.css'
 
 const Root = () => {
   return (
