@@ -2,7 +2,14 @@ import React, { Component } from 'react';
 
 class LyricList extends Component {
   renderLyrics = () => this.props.lyrics.map( ({content, id}) => 
-  <li className="collection-item" key={id}>{content}</li>)
+  {
+    return (
+      <li className="collection-item" key={id}>
+      {content}
+      <i className="material-icons" onClick={() => this.OnLike(id)}>thumb_up</i>
+      </li>)
+  }
+)
 
   render(){
     return(
