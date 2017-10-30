@@ -10,7 +10,6 @@ import LyricList from './LyricList';
 class SongDetail extends Component {
 
   render() {
-    console.log(this.props)
     const {loading, song} = this.props.data
 
     if(loading){
